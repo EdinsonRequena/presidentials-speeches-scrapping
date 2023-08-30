@@ -1,13 +1,12 @@
-from scraper import scrape_presidential_speeches, save_to_csv, scrape_presidential_names
+from scraper import scrape_presidential_data, save_to_csv
 
 
 def main():
     url = "https://millercenter.org/the-presidency/presidential-speeches"
 
-    presidential_names = scrape_presidential_names(url)
-    speech_data = scrape_presidential_speeches(url, presidential_names)
+    presidential_data = scrape_presidential_data(url)
 
-    save_to_csv(speech_data, "presidential_speeches.csv")
+    save_to_csv(presidential_data, "presidential_speeches.csv")
     print("Datos de discursos guardados en presidential_speeches.csv")
 
 
