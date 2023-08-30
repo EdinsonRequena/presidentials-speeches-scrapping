@@ -16,16 +16,16 @@ Este es un script de scrapping que recopila los presidentes y sus discursos pres
 git clone https://github.com/tuusuario/presidential-speeches-scraper.git
 ```
 
-2. Instala las dependencias:
-
-```bash
-pipenv install
-```
-
-3. Inicia el entorno virtual:
+2. Inicia el entorno virtual:
 
 ```bash
 pipenv shell
+```
+
+3. Instala las dependencias:
+
+```bash
+pipenv install
 ```
 
 4. Ejecuta el script:
